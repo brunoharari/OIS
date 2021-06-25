@@ -1,0 +1,113 @@
+.main {
+  width: 100vw;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container-fluid {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.section {
+  width: 25vw;
+  height: 90vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.section:nth-child(odd) {
+  background: #08446f;
+}
+.section:nth-child(even) {
+  background: #0e6caf;
+}
+/* .section .content {
+  transform: rotate(-90deg);
+} */
+.section .content .heading {
+  width: 400px;
+  font-family: "Spectral", serif;
+  line-height: 1.5px;
+  font-size: 40px;
+  text-emphasis: center;
+  color: white;
+}
+.section .content .icon {
+  font-size: 80px;
+
+  margin: 40px;
+  text-align: center;
+  color: white;
+}
+.section .content .sub-heading {
+  height: 20px;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+@media screen and (min-width: 981px) {
+  .section {
+    transition: all 0.4s cubic-bezier(0.61, -0.44, 0.33, 1.39);
+  }
+  .section:nth-child(1):hover {
+    width: 50vw;
+  }
+  .section:nth-child(1):hover .content {
+    transform: rotate(0deg);
+  }
+  .section:nth-child(2):hover {
+    width: 50vw;
+  }
+  .section:nth-child(2):hover .content {
+    transform: rotate(0deg);
+  }
+  .section:nth-child(3):hover {
+    width: 50vw;
+  }
+  .section:nth-child(3):hover .content {
+    transform: rotate(0deg);
+  }
+  .section:nth-child(4):hover {
+    width: 50vw;
+  }
+  .section:nth-child(4):hover .content {
+    transform: rotate(0deg);
+  }
+  .section .content {
+    transition: all 0.4s cubic-bezier(0.61, -0.44, 0.33, 1.39);
+  }
+}
+@media screen and (max-width: 980px) {
+  main {
+    display: unset;
+    margin-top: 80px;
+  }
+  main section {
+    float: left;
+    width: 50vw;
+    height: calc(50vh - 40px);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  }
+  main section .content {
+    transform: rotate(0deg);
+  }
+}
+@media screen and (max-width: 767px) {
+  nav a {
+    display: none;
+  }
+  nav span {
+    display: flex;
+  }
+}
+@media screen and (max-width: 480px) {
+  main section {
+    width: 100vw;
+    border: none;
+  }
+}

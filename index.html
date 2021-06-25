@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Liquor Store - Free Bootstrap 4 Template by Colorlib</title>
+    <title>OIS & Associates - Official Website</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -15,13 +15,18 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     
+
+    
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/whatsapp.css">
+    <!-- <link rel="stylesheet" href="css/sections.css"> -->
+    <link rel="stylesheet" href="css/slider.css">
   </head>
   <body>
     
-<a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos." class="float" target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
+<a href="mailto:elcorreoquequieres@correo.com" class="float" target="_blank">
+<i class="fa fa-envelope my-float"></i>
 
 </a>
 
@@ -51,7 +56,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><img src="./images/images/logo.png" alt=""></a>
+	      <a class="navbar-brand" href="index.html"><img id="logo" src="./images/images/ois-logo.png" alt=""></a>
 	      
 
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,16 +68,29 @@
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
 	          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+              <a class="nav-link dropdown-toggle" href="./product.html" id="dropdown04"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Products</a
+              >
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-              	<a class="dropdown-item" href="product.html">Products</a>
-                <a class="dropdown-item" href="product-single.html">Single Product</a>
-                <a class="dropdown-item" href="cart.html">Cart</a>
-                <a class="dropdown-item" href="checkout.html">Checkout</a>
+                <a class="dropdown-item" href="./products/american-oak.html">American Oak</a>
+                <a class="dropdown-item" href="./products/french-oak.html">French Oak</a>
+                <!-- <a class="dropdown-item" href="./products/blended-toast.html">Blended Toast Packs</a> -->
+                <a class="dropdown-item" href="./products/sugar-maple.html">Sugar Maple</a>
+                <a class="dropdown-item" href="./products/spanish-cedar.html">Spanish Cedar</a>
+                <a class="dropdown-item" href="./products/cypress.html">Cypress</a>
+                <a class="dropdown-item" href="./products/amburana.html">Amburana</a>
+                
               </div>
             </li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Innovation</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            
+            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="index-es.html" class="nav-link"><img class="flag"src="./images/images/es-flag.png" alt="ES Flag"></a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link"><img class="flag"src="./images/images/eng-flag.png" alt="ENG Flag"></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -80,73 +98,132 @@
     <!-- END nav -->
     
     
-      <div class="hero-wrap" style="background-image: url('images/images/about.jpg');" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row no-gutters slider-text align-items-center justify-content-center">
-            <div class="col-md-8 ftco-animate d-flex align-items-end">
-              <div class="text w-100 text-center">
-                <h1 class="mb-4">Good <span>Drink</span> for Good <span>Moments</span>.</h1>
-                <p><a href="#" class="btn btn-primary py-2 px-4">Shop Now</a> <a href="#" class="btn btn-white btn-outline-white py-2 px-4">Read more</a></p>
-              </div>
-            </div>
-          </div>
+      <div class="hero-wrap"  data-stellar-background-ratio="0.5">
+        <div class="video-container">      
+          <video id="video" src="./images/images/ois-video-2.mp4" autoplay  loop controls ></video>
         </div>
       </div>
       
-    </div>
 
-    <section class="ftco-intro">
-    	<div class="container">
-    		<div class="row no-gutters">
-    			<div class="col-md-4 d-flex">
-    				<div class="intro d-lg-flex w-100 ftco-animate">
-    					<div class="icon">
-    						<span class="flaticon-support"></span>
-    					</div>
-    					<div class="text">
-    						<h2>Online Support 24/7</h2>
-    						<p>We have an amazing phone support. Contact Us</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4 d-flex">
-    				<div class="intro color-1 d-lg-flex w-100 ftco-animate">
-    					<div class="icon">
-    						<span class="flaticon-cashback"></span>
-    					</div>
-    					<div class="text">
-    						<h2>Best Prices</h2>
-    						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4 d-flex">
-    				<div class="intro color-2 d-lg-flex w-100 ftco-animate">
-    					<div class="icon">
-    						<span class="flaticon-free-delivery"></span>
-    					</div>
-    					<div class="text">
-    						<h2>Shipping Worldwide</h2>
-    						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
+    
+
+   
+<!--     
+    <main class="main">
+      <a href="./contact.html">
+      <section class="section">
+        <div class="content">
+          <div>
+            <i class="fa fa-question icon" aria-hidden="true"></i>
+          </div>
+          <div class="heading">
+            <p>
+              Sobre Nosotros:
+            </p>
+          </div>
+          <div class="sub-heading">
+            <p>
+              Aprende mas de nuestra historia.
+            </p>
+          </div>
+        </div>
+      </section>
+    </a>
+      <section class="section">
+        <div class="content">
+          <div class="heading">
+            
+          </div>
+          <div class="sub-heading"></div>
+        </div>
+      </section>
+      
+      <section class="section">
+        <div class="content">
+          <div>
+            <i class="fa fa-question icon" aria-hidden="true"></i>
+          </div>
+          <div class="heading">
+            
+            
+            <p>
+              Sobre Nosotros:
+            </p> 
+          </div>
+          <div class="sub-heading text">
+            <p >
+              mas acerca de nosotros..
+            </p> 
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="content">
+          <div class="heading"></div>
+          <div class="sub-heading"></div>
+        </div>
+      </section>
+    </main> -->
 
     <section class="ftco-section ftco-no-pb">
 			<div class="container">
+        <section class="ftco-intro">
+          <div class="container">
+            <div class="row no-gutters">
+              <div class="col-md-4 d-flex">
+                <div class="intro d-lg-flex w-100 ftco-animate">
+                  <div class="icon">
+                    <span class="flaticon-support"></span>
+                  </div>
+                  <div class="text">
+                    <h2>Online Support</h2>
+                    <p>We have an amazing phone support. Contact Us</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="intro color-1 d-lg-flex w-100 ftco-animate">
+                  <div class="icon">
+                    <span class="flaticon-cashback"></span>
+                  </div>
+                  <div class="text">
+                    <h2>Best Prices</h2>
+                    <p>We have a lot of different prices to work with. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="intro color-2 d-lg-flex w-100 ftco-animate">
+                  <div class="icon">
+                    <span class="flaticon-free-delivery"></span>
+                  </div>
+                  <div class="text">
+                    <h2>Shipping Worldwide</h2>
+                    <p>We are Everywhere! Just send us an email to make it happen.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 				<div class="row">
-					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/images/spiral-background.jpg);">
+					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/images/about.jpg);">
 					</div>
 					<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
 	          <div class="heading-section">
 	          	
-	            <h2 class="mb-4">What Makes Us Unique?</h2>
+	            <h2 class="mb-4">About Us</h2>
               <p class="description">
-                Introduced in 2004, the Infusion Spiral has set a new standard in wood alternatives. By cutting a spiral form out of either premium French oak, American oak, Cypress, Sugar Maple, Spanish Cedar and "Blends" of different stave wood, maximum surface area is created inside a small envelope. This results in a smarter, faster, more efficient way to give new, barrel-quality oak to wine, beer, spirit and cider.  <br> – all at a reduced cost and timeframe.
+                OIS&Associates LLC, Coral Gables, FL USA is the Exclusive International
+Distributors and Sales Team of the technology, Infusion Spiral® for The Barrel
+Mill in Central Minnesota. Over the past decade, we have been dedicated to
+cater the promise of sales around the globe. This cooperage is a company that
+produces a unique, patented spiral design for aging and fermenting alcoholic
+beverages. Adding Color, Aroma, Taste and Balance to any beverage without
+the hassle of importation or refurbishing of new barrels-which can be costly as
+well as a storage compromise. The helical design results in a smarter, faster more
+efficient way to give new barrel quality wood attributes to Wine, Beer, Spirits
+and Cider – all at a reduced cost and timeframe.
               </p>
               <button class="btn btn-primary btn-large" href=''>Contact Us</button>
 	            
@@ -157,40 +234,93 @@
 					</div>
 				</div>
 			</div>
-		</section>
+    </section>
 
     <section class="ftco-section ftco-no-pb">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/images/about.jpg);">
+					<div class="col-md-6 img img-4 d-flex justify-content-center align-items-center" style="background-image: url(images/images/patent.jpg);">
 					</div>
 					<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
 	          <div class="heading-section">
-	          	<span class="subheading">Since 2004</span>
-	            <h2 class="mb-4">Why The Infusion Spiral® System Is The Smartest Oak Alternative?</h2>
-
-	            <ul>
-                <li class="item">Low cost per gallon</li>
-                <li class="item">Easy dosage adjustment</li>
-                <li class="item">Eliminates labor, space, time and cost of new barrels</li>
-                <li class="item">Adds refined new oak in weeks, not months</li>
-                <li class="item">Stays fresh in its original protective plastic packaging in long term storage, if necessary</li>
-                <li class="item">Multiple toast choices</li>                
-                <li class="item">Adds new oak before bottling</li>                
-                <li class="item">Available from stock</li>
-                <li class="item">Air-seasoned a minimum of 24 months</li>
-                <li class="item">Clean, tight-grained French oak from Vosges and American oak from Minnesota.</li>
-                <li class="item">Choice of single-toast and multi-toast barrel packs</li>
-                <li class="item">Years of proven results from producers at all levels: from fewer than 1000 cases to more than 500,000</li>
-              <ul>
+	          	
+              <h2 class="mb-4">Why The Infusion Spiral® System Is The Smartest Oak Alternative?</h2>
+              <p class="description">
+                Spiral cuts are made from different staves of wood and precision and
+consistency of convection oven toasting is applied. This creates a product that
+delivers, arguably, the most barrel-like results of any wood adjunct on the
+market. The key is the spiral’s dual grain exposure of woods cross grain and
+parallel grain. It speeds submersion and extraction of flavor and aroma
+compounds into liquid. In a matter of weeks or minimal months, you get refined,
+integrated new wood impact for your beverage.
+              </p>
 	           
-	            <p class="year">
-	            	<strong class="number" data-number="17">0</strong>
-		            <span>Years of Experience In Business</span>
-	            </p>
+	            
 	          </div>
 
 					</div>
+				</div>
+			</div>
+    </section>
+
+    
+    <section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
+	          <div class="heading-section">
+	          	<span class="subheading">Since 2004</span>
+              <h2 class="mb-4">What Are the Spirals Made Of?</h2>
+              <p class="description">
+                It is imperative to mention that TIS® is constructed with the highest quality oak
+or any other desired specific woods from Northern America, France and exotics
+are selected from exceptional areas around the globe that contribute to the
+unique character of TIS®. 
+
+              </p>
+
+	           
+	           
+	            
+	          </div>
+
+          </div>
+          <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/images/gallery-1.jpg);">
+					</div>
+				</div>
+			</div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row">
+          <div class="col-md-6 img d-flex justify-content-center align-items-center" style="background-image: url(images/images/gallery-3.jpg);">
+					</div>
+					
+					<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
+	          <div class="heading-section">
+	          	
+              <h2 class="mb-4">Our Product is Eco Friendly</h2>
+              <p class="description">
+                Our Infusion Spirals® are considered a sustainable/green product and
+competitive for today’s market. Traditionally, from one 50 year oak tree only 4 to
+5 225 Liter barrels can be produced. That same tree, with TIS® *over 250 sets
+can be produced. That is 250 sets with 6 spirals in each. (*)We confirm that one
+set can treat -at 100% contact- 225 liters, but most producers will gain a positive
+result with just one spiral insert per 500-1000 Liters - Equating to over thousands
+of barrels produced without a larger contribution to carbon footprint from the
+cooperage. 
+
+              </p>
+
+	           
+	           
+	            
+	          </div>
+
+          </div>
+          
 				</div>
 			</div>
     </section>
@@ -202,46 +332,55 @@
 				<div class="row">
 					<div class="col-lg-2 col-md-4 ">
 						<div class="sort w-100 text-center ftco-animate">
-							<div class="img" style="background-image: url(images/images/amburana.jpg);"></div>
-							<h3>Amburana</h3>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-4 ">
-						<div class="sort w-100 text-center ftco-animate">
-							<div class="img" style="background-image: url(images/images/american-oak.jpg);"></div>
+							<a href='/products/american-oak.html'><div class="img circle" style="background-image: url(images/images/products/prod-1.jpg);"></div></a>
 							<h3>American Oak</h3>
 						</div>
 					</div>
 					<div class="col-lg-2 col-md-4 ">
 						<div class="sort w-100 text-center ftco-animate">
-							<div class="img" style="background-image: url(images/images/bordeaux-blend.jpg);"></div>
-							<h3>Bordeaux Blend</h3>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-4 ">
-						<div class="sort w-100 text-center ftco-animate">
-							<div class="img" style="background-image: url(images/images/hybrid-blend.jpg);"></div>
-							<h3>Hybrid Blend</h3>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-4 ">
-						<div class="sort w-100 text-center ftco-animate">
-							<div class="img" style="background-image: url(images/images/french-oak.jpg);"></div>
+              <a href="/products/french-oak.html"><div class="img circle" style="background-image: url(images/images/products/prod-2.jpg);"></div></a>
 							<h3>French Oak</h3>
 						</div>
 					</div>
+					<!-- <div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<a href="/products/blended-toast.html"><div class="img circle" style="background-image: url(images/images/products/prod-4.jpg);"></div></a>
+							<h3>Blended Toast Packs</h3>
+						</div>
+					</div> -->
 					<div class="col-lg-2 col-md-4 ">
 						<div class="sort w-100 text-center ftco-animate">
-							<div class="img" style="background-image: url(images/images/american-oak-product.jpg);"></div>
-							<h3>American Spiral</h3>
+							<a href="/products/sugar-maple.html"><div class="img circle" style="background-image: url(images/images/products/prod-3.jpg);"></div></a>
+							<h3>Sugar Maple</h3>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<a href="/products/cypress.html"><div class="img circle" style="background-image: url(images/images/products/prod-11.jpg);"></div></a>
+							<h3>Cypress </h3>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<a href="/products/spanish-cedar.html"><div class="img circle" style="background-image: url(images/images/products/prod-10.jpg);"></div></a>
+							<h3>Spanish Cedar</h3>
+						</div>
+          </div>
+          <div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<a href="/products/amburana.html"><div class="img circle" style="background-image: url(images/images/products/prod-12.jpg);"></div></a>
+							<h3>Amburana</h3>
 						</div>
 					</div>
 
 				</div>
 			</div>
-		</section>
+    </section>
 
-		<section class="ftco-section">
+
+    
+
+		<!-- <section class="ftco-section">
 			<div class="container">
 				<div class="row justify-content-center pb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -327,9 +466,37 @@
 					</div>
 
 			</div>
-		</section>
-  
-    <section class="ftco-section testimony-section img" style="background-image: url(images/bg_4.jpg);">
+		</section> -->
+  <!-- Wrapper -->
+<!-- <div class="wrapper-slider">
+  <!-- Images Area -->
+  <!-- <div class="images-area">
+    <img  src="./images/images/gallery-1.jpg" alt="image" class="firstImage">
+    <img  src="./images/images/gallery-2.jpg" alt="image">
+    <img  src="./images/images/gallery-3.jpg" alt="image">
+    <img  src="./images/images/gallery-4.jpg" alt="image">
+    <img  src="./images/images/gallery-5.jpg" alt="image">
+    
+  </div>
+  <!-- Buttons Area -->
+  <!-- <div class="buttons-area">
+    <div class="previous-btn">
+      <i class='bx bx-chevron-left'></i>
+    </div>
+    <div class="next-btn">
+      <i class='bx bx-chevron-right'></i>
+    </div>
+  </div>
+  <!-- Pagination Area -->
+  <!-- <div class="pagination-area">
+  </div>
+</div> -->
+<!-- End Wrapper -->
+
+
+
+
+    <section class="ftco-section testimony-section testimony-background" style="background-image: url(images/images/background.jpg);">
     	<div class="overlay"></div>
       <div class="container">
         <div class="row justify-content-center mb-5">
@@ -345,14 +512,15 @@
                 <div class="testimony-wrap py-4">
                 	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
                   <div class="text">
-                    <p class="mb-4">“I Have Tried All The Alternatives Out There. I Found These To Be The Absolute Best For Giving Wines Not Only The Oak Flavoring I Want But Also The Mouthfeel Like A New Barrel.” <br><br></p>
+                    <p class="mb-4">“I Have Tried All The Alternatives Out There. I Found These To Be The Absolute Best For Giving Wines Not Only The Oak Flavoring I Want But Also The Mouthfeel Like A New Barrel.” </p>
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                    
                     	<div class="pl-3">
-		                    <p class="name">-Rick “Kaz” Kasmier-</p>
-		                    <span class="position"> Kaz Winery</span>
+		                    <p class="name">Mr. Luis Fernando Zambrano</p>
+		                    <span class="position"> -Former SAB Miller/ABInBev Master Brewer,
+                          Bogota, Colombia.</span>
                       </div>
-                      <br><br><br>
+                      
 	                  </div>
                   </div>
                 </div>
@@ -363,12 +531,12 @@
                   <div class="text">
                     <p class="mb-4">“Without The Use Of These Spirals We Would Not Have A Product On The Shelves Yet, Much Less Winning Awards Left And Right, Including The Best New Whisky Of The Year."</p>
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                    	
                     	<div class="pl-3">
-		                    <p class="name">-Matt Tackett</p>
-		                    <span class="position"> Blue Ridge Distilling</span>
+		                    <p class="name">Mr. Mariano Di Paola</p>
+		                    <span class="position"> - Winemaker Rutini & La Rural, Mendoza, Argentina. </span>
                       </div>
-                      <br><br><br><br>
+                      
 	                  </div>
                   </div>
                 </div>
@@ -379,13 +547,13 @@
                   <div class="text">
                     <p class="mb-4">"After Using Them [Infusion Spiral Products] For The First Time On A Commercial Scale, We Were Awarded A Gold Medal At The 2009 GABF For Wood And Barrel Aged Beer."</p>
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+                    	
                     	<div class="pl-3">
-		                    <p class="name">-Wayne Wambles</p>
-                        <span class="position">Cigar City Brewing</span>
+		                    <p class="name">Mr. Dick Barba</p>
+                        <span class="position">- Former Master Blender <br> DIAGEO</span>
                         
                       </div>
-                      <br><br><br><br>
+                      
 	                  </div>
                   </div>
                 </div>
@@ -412,62 +580,20 @@
         <div class="row d-flex">
           <div class="col-lg-6 d-flex align-items-stretch ftco-animate">
           	<div class="blog-entry d-flex">
-          		<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_1.jpg');">
+          		<a href="blog-single.html" class="block-20 img" style="background-image: url('images/images/gallery-1.jpg');">
               </a>
               <div class="text p-4 bg-light">
               	<div class="meta">
               		<p><span class="fa fa-calendar"></span> 23 April 2020</p>
               	</div>
-                <h3 class="heading mb-3"><a href="#">The Recipe from a Winemaker’s Restaurent</a></h3>
+                <h3 class="heading mb-3"><a href="#">How are the Spirals made?</a></h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                 <a href="#" class="btn-custom">Continue <span class="fa fa-long-arrow-right"></span></a>
 
               </div>
             </div>
           </div>
-          <div class="col-lg-6 d-flex align-items-stretch ftco-animate">
-          	<div class="blog-entry d-flex">
-          		<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text p-4 bg-light">
-              	<div class="meta">
-              		<p><span class="fa fa-calendar"></span> 23 April 2020</p>
-              	</div>
-                <h3 class="heading mb-3"><a href="#">The Recipe from a Winemaker’s Restaurent</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <a href="#" class="btn-custom">Continue <span class="fa fa-long-arrow-right"></span></a>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 d-flex align-items-stretch ftco-animate">
-          	<div class="blog-entry d-flex">
-          		<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text p-4 bg-light">
-              	<div class="meta">
-              		<p><span class="fa fa-calendar"></span> 23 April 2020</p>
-              	</div>
-                <h3 class="heading mb-3"><a href="#">The Recipe from a Winemaker’s Restaurent</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <a href="#" class="btn-custom">Continue <span class="fa fa-long-arrow-right"></span></a>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 d-flex align-items-stretch ftco-animate">
-          	<div class="blog-entry d-flex">
-          		<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_4.jpg');">
-              </a>
-              <div class="text p-4 bg-light">
-              	<div class="meta">
-              		<p><span class="fa fa-calendar"></span> 23 April 2020</p>
-              	</div>
-                <h3 class="heading mb-3"><a href="#">The Recipe from a Winemaker’s Restaurent</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <a href="#" class="btn-custom">Continue <span class="fa fa-long-arrow-right"></span></a>
-
-              </div>
+          
             </div>
           </div>
         </div>
@@ -480,7 +606,7 @@
           <div class="col-sm-12 col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2 logo"><a href="#">OIS & Associates </a></h2>
-              <p>Far far away, behind the word mountains, far from the countries.</p>
+              
               <ul class="ftco-footer-social list-unstyled mt-2">
                 <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -488,39 +614,9 @@
               </ul>
             </div>
           </div>
-          <div class="col-sm-12 col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">My Accounts</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>My Account</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Register</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Log In</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>My Order</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Information</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>About us</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Catalog</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Contact us</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Term &amp; Conditions</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Quick Link</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>New User</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Help Center</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Report Spam</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Faq's</a></li>
-              </ul>
-            </div>
-          </div>
+          
+        
+          
           <div class="col-sm-12 col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -569,6 +665,10 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script src="js/gallery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+  <script src="js/video-mute.js"></script>
+  <script src="js/slider.js"></script>
   </body>
 </html>
