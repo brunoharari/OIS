@@ -75,7 +75,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #062942;
 }
 
 [tabindex="-1"]:focus {
@@ -87,6 +87,27 @@ body {
 
   min-width: 100%;
   min-height: 100%;
+}
+
+.load {
+  opacity: 0;
+  transition: all 950ms ease-in;
+}
+
+.section-animate {
+  opacity:1;
+}
+
+.btn-lg {
+  padding: 2.5rem 5rem !important;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 20px;
 }
 
 hr {
@@ -152,11 +173,6 @@ dd {
 
 blockquote {
   margin: 0 0 1rem;
-}
-
-b,
-strong {
-  font-weight: bolder;
 }
 
 small {
@@ -510,6 +526,11 @@ mark,
 
 .img-fluid {
   max-width: 100%;
+  height: auto;
+}
+
+.img-product {
+  max-width: 90%;
   height: auto;
 }
 
@@ -10453,8 +10474,6 @@ a.text-dark:focus {
 }
 
 body {
-  font-family: "Spectral", serif;
-  background: #fff;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 300;
@@ -10491,26 +10510,29 @@ h5,
 .h4,
 .h5 {
   line-height: 1.5;
-  color: black;
+  color: white;
   font-weight: 400;
 }
 
 .wrap {
   position: relative;
-  z-index: 0;
+  z-index: 1;
   width: 100%;
   background: #08446f;
 }
+
+
+
 .wrap .phone {
   z-index: 1;
   font-weight: 200;
 }
 .wrap .phone span {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255);
 }
 .wrap .phone a {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 12px;
+  color: rgba(255, 255, 255);
+  font-size: 15px;
 }
 @media (max-width: 767.98px) {
   .wrap .reg {
@@ -10691,13 +10713,14 @@ h5,
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-  font-size: 14px;
+  font-size: 16px;
+  font-family: "Spectral", serif;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 20px;
   padding-right: 20px;
   color: rgb(255, 255, 255);
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
   opacity: 1 !important;
@@ -10903,6 +10926,22 @@ h5,
 
 .video-container {
   width: 100%;
+  margin-bottom: -10px;
+}
+
+.guide {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 20px !important;
+}
+
+.video-yt {
+  width: 100%;
+}
+
+.video-content {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .hero-wrap {
@@ -10917,7 +10956,7 @@ h5,
   .hero-wrap {
     background-position: center center !important;
     height: 500px;
-    margin-bottom: 150px;
+    
   }
 
   .main {
@@ -10951,7 +10990,7 @@ h5,
   color: #fff;
   line-height: 1.1;
   font-weight: 700;
-  font-style: italic;
+
   color: transparent;
   -webkit-text-fill-color: transparent;
   /* Will override color (regardless of order) */
@@ -11111,11 +11150,17 @@ h5,
   z-index: 10;
   border: 1px solid red;
 }
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+  color: white !important;
+  font-size: 20px;
+}
 .owl-custom-nav .owl-custom-prev,
 .owl-custom-nav .owl-custom-next {
   padding: 10px;
   font-size: 30px;
-  background: #ccc;
+  background: white !important;
   line-height: 0;
   width: 60px;
   text-align: center;
@@ -11147,6 +11192,7 @@ h5,
   background: #08446f !important;
   border: 1px solid #08446f !important;
   color: #fff !important;
+  margin-top: 20px;
 }
 .btn.btn-primary:hover {
   border: 1px solid #08446f;
@@ -11187,6 +11233,7 @@ h5,
 .ftco-intro {
   background: #08446f;
   margin-bottom: 80px;
+  margin-top: 80px;
 }
 .ftco-intro .intro {
   z-index: 0;
@@ -11306,11 +11353,9 @@ h5,
   font-weight: 300;
 }
 .product .text .category {
-  font-style: italic;
   color: #08446f;
 }
 .product .text .price {
-  font-style: italic;
   color: #000000;
 }
 .product .text .price.price-sale {
@@ -11342,10 +11387,6 @@ h5,
 .product-details h3 {
   font-size: 30px;
   font-weight: 400;
-}
-
-.product-title {
-  padding-top: 60px;
 }
 
 
@@ -11561,7 +11602,6 @@ h5,
 .review .desc h4 span:last-child {
   font-size: 14px;
   color: #b3b3b3;
-  font-style: italic;
 }
 .review .desc .star {
   width: 100%;
@@ -11877,7 +11917,7 @@ textarea.form-control {
 }
 
 .bg-black {
-  background: #000000;
+  background: #1a1a1a;
 }
 
 @media (max-width: 767.98px) {
@@ -11888,11 +11928,11 @@ textarea.form-control {
 
 .wrap-about .year {
   font-size: 30px;
-  color: #000000;
+  color: #fff;
 }
 .wrap-about .year strong {
   font-style: italic;
-  color: #08446f;
+  color: #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -11946,8 +11986,8 @@ textarea.form-control {
 
 .ftco-section {
   position: relative;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 @media (max-width: 767.98px) {
   .ftco-section {
@@ -11964,9 +12004,9 @@ textarea.form-control {
 }
 
 .ftco-footer {
-  font-size: 16px;
+  font-size: 20px;
   padding: 6em 0 0 0;
-  background: #1a1a1a;
+  background: #313131;
   color: rgba(255, 255, 255, 0.7);
 }
 .ftco-footer .logo {
@@ -11989,11 +12029,17 @@ textarea.form-control {
   margin-bottom: 10px;
 }
 .ftco-footer .ftco-footer-widget ul li a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
 }
+
+.footer-icon {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
 .ftco-footer .ftco-footer-widget ul li a span {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  color: rgba(255, 255, 255);
+  font-size: 20px;
 }
 .ftco-footer .ftco-footer-widget .btn-primary {
   background: #fff !important;
@@ -12095,7 +12141,7 @@ textarea.form-control {
   font-size: 18px;
   display: inline-block;
   margin-bottom: 0;
-  color: #08446f;
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
@@ -12113,7 +12159,12 @@ textarea.form-control {
 }
 
 .heading-section.heading-section-white .subheading {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255);
+}
+
+.subheading {
+  color: white;
+  font-weight: 600;
 }
 
 .heading-section.heading-section-white h2 {
@@ -12148,16 +12199,15 @@ textarea.form-control {
   padding-bottom: 5px;
 }
 
-.item {
-  color: black;
+.description {
+  color: white;
   font-family: sans-serif;
+  text-align: justify;
   font-size: 20px;
 }
 
-.description {
-  color: black;
-  font-family: sans-serif;
-  font-size: 20px;
+#circles {
+  margin-top: 50px;
 }
 
 .testimony-section {
@@ -12166,9 +12216,15 @@ textarea.form-control {
   background-position: center center !important;
   position: relative;
   background-attachment: fixed;
-  margin-top: 150px;
+
   background-size: cover;
 }
+
+.testimony-title {
+  color: #fff;
+  text-align: center;
+}
+
 .testimony-section .img-bg {
   position: absolute;
   top: 0;
@@ -12184,7 +12240,7 @@ textarea.form-control {
   right: 0;
   bottom: 0;
   content: "";
-  background: #000000;
+  background: #1f1f1f;
   opacity: 0.7;
 }
 .testimony-section .owl-carousel {
@@ -12217,7 +12273,7 @@ textarea.form-control {
 .testimony-section .owl-nav .owl-prev span:before,
 .testimony-section .owl-nav .owl-next span:before {
   font-size: 30px;
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -12304,6 +12360,16 @@ textarea.form-control {
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 0;
+  color: #fff;
+  font-style: normal !important;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-align: center;
   color: #fff;
   font-style: normal !important;
 }
@@ -12460,12 +12526,12 @@ textarea.form-control {
   font-style: italic;
 }
 .blog-entry .text .heading a {
-  color: #000000;
+  color: white;
 }
 .blog-entry .text .heading a:hover,
 .blog-entry .text .heading a:focus,
 .blog-entry .text .heading a:active {
-  color: #08446f;
+  color: white;
 }
 .blog-entry .meta p span {
   padding-right: 10px;
@@ -12492,7 +12558,7 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 .block-23 ul li span {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255);
 }
 .block-23 ul li .icon,
 .block-23 ul li .text {
@@ -12502,7 +12568,7 @@ textarea.form-control {
 .block-23 ul li .icon {
   width: 40px;
   font-size: 18px;
-  padding-top: 2px;
+  padding-top: 12px;
   color: #fff;
 }
 
@@ -12563,19 +12629,24 @@ textarea.form-control {
 }
 .dbox p {
   margin-bottom: 0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 18px;
+  
 }
 .dbox p span {
   font-weight: 500;
-  color: #000000;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 }
 .dbox p a {
-  color: #08446f;
+  color: rgb(0, 0, 0);
 }
 .dbox .icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #08446f;
+  background: #04528a;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -12585,6 +12656,16 @@ textarea.form-control {
 }
 .dbox .text {
   width: 100%;
+}
+
+.contact-link {
+  color: white;
+  font-weight: bold;
+}
+
+.form-title {
+  color: black;
+  font-weight: bold;
 }
 
 .contactForm .label {

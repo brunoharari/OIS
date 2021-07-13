@@ -1,16 +1,20 @@
 function checkVisible(elm) {
   var rect = elm.getBoundingClientRect();
   var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-  return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+  return !(rect.bottom < 0 || rect.top - viewHeight + 50 >= 0);
 
 }
 
 function playVid() {
+  console.log('playing')
   video.play();
 }
 
 function pauseVid() {
-  video.pause();
+  console.log('paused')
+    video.pause();
+  
+
 }
 
 

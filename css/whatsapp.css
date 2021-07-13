@@ -4,11 +4,11 @@
   height: 80px;
   bottom: 40px;
   right: 40px;
-  background-color: #dd8a1e;
+  background-color: #1e81dd;
   color: #fff !important;
   border-radius: 50px;
   text-align: center;
-  font-size: 45px;
+  font-size: 38px;
   box-shadow: 2px 2px 3px #000;
   z-index: 100;
 }
