@@ -91,7 +91,7 @@ body {
 
 .load {
   opacity: 0;
-  transition: all 950ms ease-in;
+  transition: all 1000ms ease-in-out;
 }
 
 .section-animate {
@@ -8261,6 +8261,13 @@ button.bg-dark:focus {
   white-space: normal;
 }
 
+.shadow-img {
+  box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+-webkit-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+-moz-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+}
+
+
 .shadow-sm {
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
@@ -12006,7 +12013,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 20px;
   padding: 6em 0 0 0;
-  background: #313131;
+  background: #052942;
   color: rgba(255, 255, 255, 0.7);
 }
 .ftco-footer .logo {

@@ -329,7 +329,7 @@
         $(this.element).addClass('section-animate');
 
 
-        console.log(this.element)
+
       } else {
         $(this.element).removeClass('section-animate')
       }
@@ -337,8 +337,6 @@
     }, { offset: '95%' });
   };
   loadingSections();
-
-
 
 
 
