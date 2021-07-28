@@ -1,0 +1,44 @@
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.image-gallery {
+  margin: 0 auto;
+  display: table;
+}
+
+.primary,
+.thumbnails {
+  display: table-cell;
+}
+
+.thumbnails {
+  width: 300px;
+
+}
+
+.primary {
+  width: 100%;
+  height: 400px;
+  background-color: #ccc;
+  margin: 20px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.thumbnail:hover .thumbnail-image, .selected .thumbnail-image {
+  border: 2px solid rgb(14, 89, 160);
+}
+
+.thumbnail-image {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 2px solid transparent;
+}

@@ -1,0 +1,13 @@
+.modal-title {
+  color: black;
+}
+
+#productImage {
+  width: 100%;
+}
+
+#description {
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+}

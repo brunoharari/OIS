@@ -1,0 +1,107 @@
+#accordion {
+  width: 100%;
+  line-height: 1.5em;
+}
+.product-title {
+  font-size: 15px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+ul {
+  list-style-type: none;
+}
+
+.item-product {
+  color: rgb(248, 248, 248);
+  font-family: sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  
+  margin-top: 25px;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.light {
+  background-image: url('/images/images/backgrounds/background-toast-light.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.medium {
+  background-image: url('/images/images/backgrounds/background-toast-medium.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.medium-plus {
+  background-image: url('/images/images/backgrounds/background-toast-medium-plus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heavy {
+  background-image: url('/images/images/backgrounds/background-toast-heavy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.char-3 {
+  background-image: url('/images/images/backgrounds/background-toast-char.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blend {
+  background-image: url('/images/images/backgrounds/background-toast-blend.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item-product span {
+  font-weight: bold;
+}
+
+.accordion-toggle {
+  cursor: pointer;
+}
+.accordion-toggle .icon {
+  float: right;
+  margin-left: 10px;
+}
+.accordion-toggle .icon:before {
+  display: inline-block;
+  content: "+";
+  font-size: 50px;
+  line-height: 12px;
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition: 0.2s ease;
+}
+.accordion-toggle.open .icon:before {
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  transform-origin: 50% 75%;
+}
+.accordion-content {
+  display: none;
+}
+.accordion-content.default {
+  display: block;
+}
+.accordion-box {
+  padding: 1.5em 1em 2em 0;
+}
+.accordion-box p {
+  margin-right: 40px;
+}
