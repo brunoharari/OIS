@@ -196,7 +196,7 @@
       if (st > 150) {
         if (!navbar.hasClass('scrolled')) {
           navbar.addClass('scrolled');
-          img.src = '../images/images/ois-logo.png'
+          img.src = '../../images/images/ois-logo.png'
 
         }
       }
@@ -208,7 +208,7 @@
       if (st > 350) {
         if (!navbar.hasClass('awake')) {
           navbar.addClass('awake');
-          img.src = '../images/images/ois-logo-black.png'
+          img.src = '../../images/images/ois-logo-black.png'
 
         }
 
