@@ -221,7 +221,7 @@
         if (navbar.hasClass('awake')) {
           navbar.removeClass('awake');
           navbar.addClass('sleep');
-          img.src = '../images/images/ois-logo.png'
+          img.src = '../../images/images/ois-logo.png'
         }
         if (sd.length > 0) {
           sd.removeClass('sleep');
