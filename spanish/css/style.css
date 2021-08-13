@@ -95,7 +95,7 @@ body {
 }
 
 .section-animate {
-  opacity:1;
+  opacity: 1;
 }
 
 .btn-lg {
@@ -8262,11 +8262,10 @@ button.bg-dark:focus {
 }
 
 .shadow-img {
-  box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
--webkit-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
--moz-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+  box-shadow: 1px 1px 65px 2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 1px 1px 65px 2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 1px 65px 2px rgba(0, 0, 0, 1);
 }
-
 
 .shadow-sm {
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
@@ -10528,8 +10527,6 @@ h5,
   background: #08446f;
 }
 
-
-
 .wrap .phone {
   z-index: 1;
   font-weight: 200;
@@ -10962,8 +10959,6 @@ h5,
 @media (max-width: 1199.98px) {
   .hero-wrap {
     background-position: center center !important;
-    
-    
   }
 
   .main {
@@ -11395,8 +11390,6 @@ h5,
   font-size: 30px;
   font-weight: 400;
 }
-
-
 
 .product-details .price span {
   font-size: 30px;
@@ -12640,7 +12633,6 @@ textarea.form-control {
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 18px;
-  
 }
 .dbox p span {
   font-weight: 500;

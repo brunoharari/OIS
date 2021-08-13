@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  $("#product-image").click(function () {
-    $('#exampleModal').modal('show');
+  $('#product-image').click(function () {
+    $('#modal4').modal('show');
   });
 });
 
@@ -9,9 +9,11 @@ $(document).ready(function () {
 
 
 
-$('#exampleModal').on('show.bs.modal', function (event) {
+$('#modal4').on('show.bs.modal', function (event) {
   let img = $(event.relatedTarget) // Image that triggered the modal
+
   let title = img.data('title')
+  console.log(title)
   let description = img.data('description')
   let productImg = img.data('img')
   let image = document.getElementById('productImage')

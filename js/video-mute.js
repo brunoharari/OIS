@@ -1,27 +1,14 @@
-function checkVisible(elm) {
-  var rect = elm.getBoundingClientRect();
-  var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-  return !(rect.bottom < 0 || rect.top - viewHeight + 50 >= 0);
-
+function checkVisible(e) {
+  var n = e.getBoundingClientRect(),
+    e = Math.max(document.documentElement.clientHeight, window.innerHeight);
+  return !(n.bottom < 0 || 0 <= n.top - e + 50);
 }
-
 function playVid() {
-  console.log('playing')
-  video.play();
+  console.log("playing"), video.play();
 }
-
 function pauseVid() {
-  console.log('paused')
-    video.pause();
-  
-
+  console.log("paused"), video.pause();
 }
 
-
-window.onscroll = function () {
-  // CODE
-  const video = document.getElementById('video')
-
-  video.muted = !checkVisible(video);
-  video.muted ? pauseVid() : playVid()
-};
+const e = document.getElementById('video')
+e.muted = !checkVisible(e)

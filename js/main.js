@@ -208,7 +208,7 @@
       if (st > 350) {
         if (!navbar.hasClass('awake')) {
           navbar.addClass('awake');
-          img.src = '../images/images/ois-logo-black.png'
+          img.src = '../../images/images/ois-logo-black.png'
 
         }
 
@@ -221,7 +221,7 @@
         if (navbar.hasClass('awake')) {
           navbar.removeClass('awake');
           navbar.addClass('sleep');
-          img.src = '../images/images/ois-logo.png'
+          img.src = '../../images/images/ois-logo.png'
         }
         if (sd.length > 0) {
           sd.removeClass('sleep');
@@ -351,8 +351,6 @@
     fixedContentPos: false
   });
 
-  $('[data-toggle="popover"]').popover()
-  $('[data-toggle="tooltip"]').tooltip()
 
 })(jQuery);
 
