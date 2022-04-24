@@ -1,0 +1,25 @@
+.dropdown-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-ul .dropdown-item {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .dropdown-flex {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+}

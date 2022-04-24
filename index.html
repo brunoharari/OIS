@@ -19,6 +19,8 @@
       <link rel="stylesheet" href="css/sections.css">
       <link rel="stylesheet" href="css/slider.css">
       <link rel="stylesheet" href="css/modal.css">
+      <link rel="stylesheet" href="css/dropdown.css">
+      
    </head>
    <body>
       <a href="mailto:jeannierobles@icloud.com" class="float" target="_blank">
@@ -96,7 +98,7 @@
                   <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
                   <li class="nav-item dropdown">
                      <a  class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">Products</a>
+                        aria-expanded="false">TIS® Products</a>
                      <div class="dropdown-menu" aria-labelledby="dropdown04">
                         <a class="dropdown-item" href="./products/american-oak.html">American Oak</a>
                         <a class="dropdown-item" href="./products/french-oak.html">French Oak</a>
@@ -111,14 +113,28 @@
                      <a href="fno-products.html" class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">FNO Products</a>
                      <div class="dropdown-menu" aria-labelledby="dropdown04">
-                        <a class="dropdown-item" href="./products/american-oak.html">Blocks</a>
-                        <a class="dropdown-item" href="./products/french-oak.html">Chips</a>
+                        <div class="dropdown-flex">
+                           <div class="dropdown-ul">
+                           <a class="dropdown-item" href="./fno-products.html">Fine Northern Oak</a>
+                        </div>
+                           <div class="dropdown-ul">
+                           <a class="dropdown-item" href="./products/blocks.html">Blocks</a>
+                        
+                        </div>
+                        <div class="dropdown-ul">
+                           <a class="dropdown-item" href="./products/chips.html">Chips</a>
+                           
                         <!-- <a class="dropdown-item" href="./products/blended-toast.html">Blended Toast Packs</a> -->
-                        <a class="dropdown-item" href="./products/sugar-maple.html">Selected by FNO (Blocks)</a>
-                        <a class="dropdown-item" href="./products/spanish-cedar.html"> Selected by FNO (Chips)</a>
+                        
+                        </div>
+                        
+                        </div>
+                        
+                        
                         
                      </div>
                   </li>
+                  
                   <li class="nav-item"><a href="innovation.html" class="nav-link">Innovation</a></li>
                   <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                   <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
@@ -133,7 +149,7 @@
       <!-- END nav -->
       <div class="hero-wrap " data-stellar-background-ratio="0.5">
          <div class="video-container">
-            <video id="video" src="./images/images/videos/ois-video.mp4" autoplay loop muted controls></video>
+            <video id="video" src="./images/images/videos/ois-video.mp4" autoplay loop muted ></video>
          </div>
       </div>
       <section class="main load ">
@@ -754,7 +770,7 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
       <script src="js/main.js"></script>
       <script src="js/gallery.js"></script>
-      <script src="js/video-mute.js"></script>
+      <!-- <script src="js/video-mute.js"></script> -->
       <script src="js/modal.js"></script>
    </body>
 </html>
