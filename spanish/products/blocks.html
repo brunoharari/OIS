@@ -9,11 +9,12 @@
          rel="stylesheet" />
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
       <link rel="stylesheet" href="../css/animate.css" />
-      <link rel="icon" href="../images/images/icons/favicon.jpg" type="image/png" />
+      <link rel="icon" href="../../images/images/icons/favicon.jpg" type="image/png" />
       <link rel="stylesheet" href="../css/owl.carousel.min.css" />
       <link rel="stylesheet" href="../css/owl.theme.default.min.css" />
       <link rel="stylesheet" href="../css/magnific-popup.css" />
       <link rel="stylesheet" href="../css/accordion.css">
+      <link rel="stylesheet" href="../css/dropdown.css">
       <link rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css" />
       <link rel="stylesheet" href="../css/flaticon.css" />
@@ -81,24 +82,23 @@
          </div>
          
          </div> -->
- <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
          <div class="container">
-            <a class="navbar-brand" href="../index.html"><img id="logo" src="../../images/images/ois-logo.png" alt="" /></a>
+            <a class="navbar-brand" href="../index.html"><img id="logo" src="../../images/images/ois-logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
             </button>
             <div class="collapse navbar-collapse" id="ftco-nav">
                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                     <a href="../index.html" class="nav-link">Inicio</a>
-                  </li>
-                  <li class="nav-item dropdown active">
-                     <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">Products</a>
+                  <li class="nav-item "><a href="../index.html" class="nav-link">Inicio</a></li>
+                  <li class="nav-item dropdown">
+                     <a  class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Productos TIS® </a>
                      <div class="dropdown-menu" aria-labelledby="dropdown04">
-                        <a class="dropdown-item" href="./american-oak.html">Cedro Americano</a>
-                        <a class="dropdown-item" href="./french-oak.html">Cedro Francés</a>
+                        <a class="dropdown-item" href="./american-oak.html">Roble Americano</a>
+                        <a class="dropdown-item" href="./french-oak.html">Roble Francés</a>
                         <!-- <a class="dropdown-item" href="./blended-toast.html">Blended Toast Packs</a> -->
                         <a class="dropdown-item" href="./sugar-maple.html">Arce Azucarero</a>
                         <a class="dropdown-item" href="./spanish-cedar.html">Cedro Americano</a>
@@ -106,28 +106,45 @@
                         <a class="dropdown-item" href="./amburana.html">Amburana</a>
                      </div>
                   </li>
+                  <li class="nav-item dropdown">
+                     <a href="../fno-products.html" class="nav-link dropdown-toggle active" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Productos FNO </a>
+                     <div class="dropdown-menu" aria-labelledby="dropdown04">
+                        <div class="dropdown-flex">
+                           <div class="dropdown-ul">
+                           <a class="dropdown-item" href="../fno-products.html">Fine Northern Oak</a>
+                        </div>
+                           <div class="dropdown-ul">
+                           <a class="dropdown-item" href="./blocks.html">Bloques</a>
+                        
+                        </div>
+                        <div class="dropdown-ul">
+                           <a class="dropdown-item" href="./chips.html">Astillas</a>
+                           
+                        <!-- <a class="dropdown-item" href="./products/blended-toast.html">Blended Toast Packs</a> -->
+                        
+                        </div>
+                        
+                        </div>
+                        
+                        
+                        
+                     </div>
                   </li>
-                  <li class="nav-item">
-                     <a href="../innovation.html" class="nav-link">Innovación</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="../contact.html" class="nav-link">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="../blog.html" class="nav-link">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="../../spanish/index.html" class="nav-link"><img class="flag" src="../../images/images/icons/es-flag.png"
-                        alt="ES Flag" /></a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="../../index.html" class="nav-link"><img class="flag" src="../../images/images/icons/eng-flag.png"
-                        alt="ENG Flag" /></a>
-                  </li>
+                  
+                  <li class="nav-item"><a href="../innovation.html" class="nav-link">Innovación</a></li>
+                  <li class="nav-item"><a href="../contact.html" class="nav-link">Contacto</a></li>
+                  <li class="nav-item"><a href="../blog.html" class="nav-link">Blog</a></li>
+                  <li class="nav-item"><a href="../index.html" class="nav-link"><img class="flag"
+                     src="../../images/images/icons/es-flag.png" width="auto" height="auto" alt="ES Flag"></a></li>
+                  <li class="nav-item"><a href="../../index.html" class="nav-link"><img class="flag"
+                     src="../../images/images/icons/eng-flag.png" alt="ENG Flag"></a></li>
                </ul>
             </div>
          </div>
       </nav>
+
+
       <section class="ftco-section testimony-section testimony-background load"
          style="background-image: url(../../images/images/backgrounds/background-patent.jpg); padding-bottom: 50px;">
       <div class="overlay"></div>
@@ -139,7 +156,7 @@
                      <img src="../images/images/products/american-oak.jpg" class="img-fluid" alt="Colorlib Template" />
                      
                      </a> -->
-                  <div class="wrapper">
+                  <!-- <div class="wrapper">
                      <div class="image-gallery">
                         <aside class="thumbnails">
                            <a href="#" class="selected thumbnail " data-big="../../images/images/products/american-oak.jpg">
@@ -159,15 +176,19 @@
                            style="background-image: url('../../images/images/products/american-oak.jpg');">
                         </main>
                      </div>
-                  </div>
+                  </div> -->
+                   <img src="../../images/images/products/blocks.jpg"  class="w-100" alt="">
+              <a class="btn btn-primary btn-block  guide" href="./guides/BLOCKS-ES.pdf"
+                download="Guia de Bloques ES">Descarga Nuestra Guia de Bloques!</a>
+            
                </div>
-               <div class="col-lg-6 product-details pl-md-5 ftco-animate">
-                  <h1 class="product-title"> <strong>Blocks</strong> </h1>
+               <div class="col-lg-6 product-details pl-md-5 ftco-animate" style="margin-top: 100px;">
+                  <h1 class="product-title"> <strong>Bloques</strong> </h1>
                   <p class="description">
                      Los Bloques de FNO traen suavidad y
                      complejidad. El extendido y lento proceso de tostado acentúa la elegancia del material crudo, seleccionado cuidadosamente de la región Noroeste del rango del Cedro Blanco Americano. 
                      
-                     Por favor, referirse a nuestras guías técnicas para encontrar dosis, información y detalles.
+                     Por favor, referirse a nuestras guías técnicas de nuestros productos para encontrar dosis, información y detalles.
                      
                      
                   </p>
@@ -218,7 +239,7 @@
                      <img src="../images/images/products/american-oak.jpg" class="img-fluid" alt="Colorlib Template" />
                      
                      </a> -->
-                  <div class="wrapper">
+                  <!-- <div class="wrapper">
                      <div class="image-gallery">
                         <aside class="thumbnails">
                            <a href="#" class="selected thumbnail " data-big="../../images/images/products/american-oak.jpg">
@@ -238,13 +259,19 @@
                            style="background-image: url('../../images/images/products/american-oak.jpg');">
                         </main>
                      </div>
-                  </div>
+                  </div> -->
+               
+                   <img src="../../images/images/products/selected-blocks.jpg" class="w-100" alt="">
+              <a class="btn btn-primary btn-block  guide" href="./guides/SELECTED-BLOCKS-ES.pdf"
+                download="Guia de Bloques Seleccionados.pdf">Descarga Nuestra Guia de Bloques Seleccionados!</a>
+            
+               
                </div>
                <div class="col-lg-6 product-details pl-md-5 ftco-animate">
-                  <h1 class="product-title"> <strong>Bloques</strong> </h1>
+                  <h1 class="product-title"> <strong>Bloques Seleccionados por FNO</strong> </h1>
                   <p class="description">
                      Los Bloques seleccionados por FNO de Cedro Francés están disponibles en Tostado Medio y Tostado Medio Plus, Como son piezas de madera más grandes, muestran resultados óptimos cuando se encuentran en contacto por un periodo largo de tiempo (3 meses mínimo).
-                     La extracción es un proceso lento y muy distinguido ya que contribuye a un perfil más estable del Cedro. Los resultados muestran mayor volumen, un sabor a fruta potenciado y expresa un espectro de aromas, dependiendo del tostado y la dosis usada. <br> Por favor referirse a nuestras guias técnicas de producto para tener información sobre la dosis y más detalles.
+                     La extracción es un proceso lento y muy distinguido ya que contribuye a un perfil más estable del Cedro. Los resultados muestran mayor volumen, un sabor a fruta potenciado y expresa un espectro de aromas, dependiendo del tostado y la dosis usada. <br> Por favor referirse a nuestras guias técnicas de productos para tener información sobre la dosis y más detalles.
                     
                   </p>
                </div>
@@ -254,7 +281,7 @@
                   <div class="row">
                      <div class="col-lg-12">
                           <div class="main-content">
-    <dt id="0"  class="description-title">Bloques de Cedro Francés Elegidos por FNO <span  class="expand-collapse"></span></dt>
+    <dt id="0"  class="description-title">Bloques de Cedro Francés seleccionados por FNO <span  class="expand-collapse"></span></dt>
     <dd class="description">
        <ul>
                                     
@@ -285,7 +312,7 @@
                               style="background-image: url(../../images/images/products/american-oak.jpg);">
                            </div>
                         </a>
-                        <h3>American Oak</h3>
+                        <h3>Roble Americano</h3>
                      </div>
                   </div>
                   <div class="col-lg-2 col-md-4 ">
@@ -295,7 +322,7 @@
                               style="background-image: url(../../images/images/products/french-oak.jpg);">
                            </div>
                         </a>
-                        <h3>French Oak</h3>
+                        <h3>Roble Francés	</h3>
                      </div>
                   </div>
                   <!-- <div class="col-lg-2 col-md-4 ">
@@ -315,7 +342,7 @@
                               style="background-image: url(../../images/images/products/prod-11.jpg);">
                            </div>
                         </a>
-                        <h3>Sugar Maple</h3>
+                        <h3>Arce Azucarero</h3>
                      </div>
                   </div>
                   <div class="col-lg-2 col-md-4 ">
@@ -325,7 +352,7 @@
                               style="background-image: url(../../images/images/products/cypress.jpg);">
                            </div>
                         </a>
-                        <h3>Cypress </h3>
+                        <h3>Ciprés</h3>
                      </div>
                   </div>
                   <div class="col-lg-2 col-md-4 ">
@@ -335,7 +362,7 @@
                               style="background-image: url(../../images/images/products/prod-6.jpg);">
                            </div>
                         </a>
-                        <h3>Spanish Cedar</h3>
+                        <h3>Cedro Americano</h3>
                      </div>
                   </div>
                   <div class="col-lg-2 col-md-4 ">
@@ -370,7 +397,7 @@
       <footer class="ftco-footer">
          <div class="container">
             <div class="row mb-5">
-               <div class="col-sm-2 col-lg-12">
+               <div class="col-sm-12 col-md">
                   <div class="ftco-footer-widget mb-4">
                      <h2 class="ftco-heading-2 logo"><a href="#">OIS & Associates </a></h2>
                      <ul class="ftco-footer-social list-unstyled mt-2">
@@ -383,7 +410,7 @@
                      </ul>
                   </div>
                </div>
-               <div class="col-sm-2 col-lg-12">
+               <div class="col-sm-12 col-md">
                   <div class="ftco-footer-widget mb-4">
                      <h2 class="ftco-heading-2">Have a Question?</h2>
                      <div class="block-23 mb-3">
