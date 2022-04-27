@@ -85,7 +85,6 @@
 
   $(document).ready(function () {
     $(".navbar-toggler").click(function () {
-      console.log("hola");
       $("#ftco-nav").slideToggle(300).toggleClass("show");
     });
   });
